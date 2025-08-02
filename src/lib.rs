@@ -128,12 +128,12 @@ mod test{
 
 
         let result = zkproof.verify(
-            &t1,
+             &t1,
             &t2,
-            &y1,
-            &y2,
+            &c,
             &s,
-            &c, 
+            &y1,
+            &y2 
         );
         assert!(result == true);
     }
@@ -176,12 +176,12 @@ mod test{
 
 
             let result = zkproof.verify(
-                &t1,
-                &t2,
-                &y1,
-                &y2,
-                &s,
-                &c,
+                 &t1,
+            &t2,
+            &c,
+            &s,
+            &y1,
+            &y2
             );
 
 
