@@ -12,7 +12,7 @@ This implementation uses the **Schnorr identification protocol**, which works as
 2. **Commitment**: Prover generates random `r` and computes commitments `t1 = g^r mod p` and `t2 = h^r mod p`
 3. **Challenge**: Verifier sends a random challenge `c`
 4. **Response**: Prover computes response `s = r - cx mod q` where `x` is the secret
-5. **Verification**: Verifier checks if `t1 ≟ g^s * y1^c mod p` and `t2 ≟ h^s * y2^c mod p`
+5. **Verification**: Verifier checks if `t1 = g^s * y1^c mod p` and `t2 = h^s * y2^c mod p`
 
 ## 🚀 Features
 
