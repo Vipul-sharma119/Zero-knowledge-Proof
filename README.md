@@ -1,6 +1,6 @@
 # Zero Knowledge Proof (ZKP) Implementation
 
-A Rust implementation of Zero Knowledge Proof using the Schnorr protocol. This library demonstrates how a prover can convince a verifier that they know a secret value without revealing the secret itself.
+A Rust implementation of Zero Knowledge Proof using the Chaum-Pedersen protocol. This library demonstrates how a prover can convince a verifier that they know a secret value without revealing the secret itself.
 
 ## 🔐 What is Zero Knowledge Proof?
 
@@ -136,11 +136,3 @@ Run tests with:
 cargo test
 ```
 
-## 🔒 Security Considerations
-
-- This implementation is for **educational purposes** and demonstration
-- For production use, consider additional security measures:
-  - Secure parameter generation
-  - Protection against timing attacks
-  - Proper random number generation seeding
-  - Larger key sizes for real-world security
