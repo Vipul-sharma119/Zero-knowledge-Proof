@@ -136,3 +136,5 @@ Run tests with:
 cargo test
 ```
 
+
+WILL ADD CLIENT SIDE AND GRPC IN NEAR FUTURE
